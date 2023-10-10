@@ -16,10 +16,13 @@ import { cn } from '~/lib/utils';
 
 export function Navbar() {
 	return (
-		<nav className='container fixed inset-x-0 top-0 flex flex-row items-center justify-between py-8'>
+		<nav className='container fixed inset-x-0 top-0 flex flex-row items-center justify-between bg-inherit py-8'>
 			<Link
 				to='/'
-				className='flex scroll-m-20 gap-x-2 text-xl font-semibold tracking-tight lg:text-2xl'
+				className={cn(
+					buttonVariants({ variant: 'link' }),
+					'flex scroll-m-20 gap-x-2 text-xl font-semibold tracking-tight lg:text-2xl'
+				)}
 			>
 				Remix México
 				<span role='img' aria-label='Mexico flag'>
