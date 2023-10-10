@@ -28,8 +28,47 @@ import { z } from 'zod';
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: 'New Remix App' },
-		{ name: 'description', content: 'Welcome to Remix!' }
+		{ title: 'Remix México' },
+		{
+			name: 'description',
+			content:
+				'Queremos ayudar a toda la comunidad a desarrollar mejores experiencias en la web de nuestros usuarios. Así que vamos a aprender y enseñar Remix juntos. Únete a nuestros eventos cada mes para aprender más sobre Remix!'
+		},
+		{
+			name: 'keywords',
+			content:
+				'remix, remix run, react, javascript, typescript, web, development, mexico, español'
+		},
+		{
+			name: 'twitter:title',
+			content: 'Remix México'
+		},
+		{
+			name: 'twitter:description',
+			content:
+				'Queremos ayudar a toda la comunidad a desarrollar mejores experiencias en la web de nuestros usuarios. Así que vamos a aprender y enseñar Remix juntos. Únete a nuestros eventos cada mes para aprender más sobre Remix!'
+		},
+		{
+			name: 'twitter:image',
+			content: 'https://remix-mexico.fly.dev/img/og-image.png'
+		},
+		{
+			name: 'twitter:card',
+			content: 'summary_large_image'
+		},
+		{
+			name: 'og:title',
+			content: 'Remix México'
+		},
+		{
+			name: 'og:description',
+			content:
+				'Queremos ayudar a toda la comunidad a desarrollar mejores experiencias en la web de nuestros usuarios. Así que vamos a aprender y enseñar Remix juntos. Únete a nuestros eventos cada mes para aprender más sobre Remix!'
+		},
+		{
+			name: 'og:image',
+			content: 'https://remix-mexico.fly.dev/img/og-image.png'
+		}
 	];
 };
 
