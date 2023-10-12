@@ -8,7 +8,7 @@
 		"dev": "remix dev --manual",
 		"start": "remix-serve ./build/index.js",
 		"typecheck": "tsc",
-		"db:generate": "drizzle-kit generate:sqlite --out ./drizzle/migrations --breakpoints --schema=./drizzle/schema.ts",
+		"db:generate": "drizzle-kit generate:sqlite",
 		"db:migrate": "tsx drizzle/migrate",
 		"db:studio": "drizzle-kit studio --port 3333"
 	},
